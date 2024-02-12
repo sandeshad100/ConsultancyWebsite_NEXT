@@ -22,7 +22,7 @@ export default function Home() {
       <div className="text-center flex flex-col items-center">
         <ContactUs />
       </div>
-      {/* <Testimonials/> */}
+      <Testimonials/>
     </main>
   );
 }
