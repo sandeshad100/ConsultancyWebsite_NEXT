@@ -101,7 +101,7 @@ const Footer = () => {
       </footer>
       <div className="css-bg-primary text-white flex justify-between px-3 py-4">
         <div>
-          <a>Privacy Policy </a> Designed and Developer by
+          <a className="font-bold">Privacy Policy </a> Designed and Developer by
           <a href=""> BlueFox Pvt Ltd</a>
         </div>
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../../../public/logo/logo.jpg";
 import Head from "next/head";
+import Link from "next/link";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,8 @@ function Nav() {
     <>
       <nav className="bg-white border-gray-200 dark:white border-b css-font-1">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-          <a
-            href=""
+          <Link
+            href="/"
             className="flex items-center space-x-2 rtl:space-x-reverse"
           >
             <img
@@ -22,7 +23,7 @@ function Nav() {
               className="h-20"
               alt="RedPoint"
             />
-          </a>
+          </Link>
           <button
             onClick={toggleMenu}
             type="button"
@@ -56,58 +57,58 @@ function Nav() {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:border-gray-700 ">
               {/* Menu items go here */}
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   class="block py-2 px-3  css-color-1 rounded md:bg-transparent  md:p-0 "
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/user/prepration"
                   class="block py-2 px-3   rounded md:bg-transparent  md:p-0"
                   aria-current="page"
                 >
-                  Test Prepration
-                </a>
+                  IELTS
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/user/universities"
                   class="block py-2 px-3 rounded md:bg-transparent  md:p-0"
                   aria-current="page"
                 >
-                  Study Abroad
-                </a>
+                  Universities
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/user/blogs"
                   class="block py-2 px-3   rounded md:bg-transparent  md:p-0 "
                   aria-current="page"
                 >
                   Blogs
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/user/about"
                   class="block py-2 px-3   rounded md:bg-transparent  md:p-0"
                   aria-current="page"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/user/contactus"
                   class="block py-2 px-3   rounded md:bg-transparent  md:p-0"
                   aria-current="page"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

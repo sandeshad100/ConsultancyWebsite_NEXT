@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <>
       <header className="px-10 pt-3 pb-5 css-bg-primary w-100 css-font-1 ">
-        <div className="top_bar text-white flex flex-row justify-between">
+        <div className="top_bar text-white grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="top_left_bar_info flex flex-row gap-2">
             <span>
               <a href="">info@thenext.edu.np</a>
@@ -23,8 +23,8 @@ const NavBar = () => {
               <a href="">+977-01-5970268</a>
             </span>
           </div>
-          <div className="top_right_bar_info flex flex-row gap-6">
-            <a href="">
+          <div className="top_right_bar_info flex flex-row  justify-center lg:justify-end gap-6">
+            <a href="https://web.whatsapp.com/">
               <span>
                 <FaWhatsapp
                   style={{
@@ -37,7 +37,7 @@ const NavBar = () => {
                 />
               </span>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/">
               <span>
                 <CiFacebook
                   style={{
