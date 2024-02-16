@@ -85,6 +85,71 @@ function Nav() {
               </li>
               <li>
                 <Link
+                  href="#"
+                  class="block  px-3 rounded md:bg-transparent  md:p-0"
+                  aria-current="page"
+                >
+                  <div class="group relative cursor-pointer  w-fit">
+                    <div class="flex items-center justify-between bg-white">
+                      <a
+                        class="menu-hover  text-base font-medium text-black lg:mx-4"
+                        onClick=""
+                      >
+                        {" "}
+                        Services{" "}
+                      </a>
+                      <span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="h-3 w-3"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="invisible absolute z-50 flex w-full flex-col bg-gray-100 px-4 py-1 text-gray-800 shadow-xl group-hover:visible"
+                      onClick=""
+                    >
+                      <Link
+                        href=""
+                        class=" block border-b border-gray-100 text-xs text-gray-500 hover:text-black md:mx-2"
+                      >
+                        Study in Australia
+                      </Link>
+
+                      <Link
+                        href=""
+                        class="my-2 block border-b border-gray-100 text-xs text-gray-500 hover:text-black md:mx-2"
+                      >
+                        Study in New Zealand
+                      </Link>
+                      <Link
+                        href=""
+                        class="my-2 block border-b border-gray-100 text-xs text-gray-500 hover:text-black md:mx-2"
+                      >
+                        Study in Canada{" "}
+                      </Link>
+                      <Link
+                        href=""
+                        class="my-2 block border-b border-gray-100 text-xs text-gray-500 hover:text-black md:mx-2"
+                      >
+                        Study In UK{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/user/blogs"
                   class="block py-2 px-3   rounded md:bg-transparent  md:p-0 "
                   aria-current="page"
