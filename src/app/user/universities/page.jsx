@@ -25,26 +25,13 @@ const page = () => {
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
-            </div>
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
           </div>
-
           <p class="text-3xl lg:text-4xl  css-family css-color-2 section-title css-color-primary font-bold mt-11">
             Canada
           </p>
@@ -55,24 +42,12 @@ const page = () => {
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2023/12/durham.png" />
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2023/01/brescia.jpg" />
             <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
-            </div>
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
-            <div className="flex items-center justify-center">
-              <img src="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
-            </div>
-            <div>
-              <img src="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
-            </div>
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/southern-queensland.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2022/09/mit.png" />
+            <ImageCard imagePath="https://thenext.edu.np/wp-content/uploads/2017/09/1.png" />
           </div>
         </div>
       </div>

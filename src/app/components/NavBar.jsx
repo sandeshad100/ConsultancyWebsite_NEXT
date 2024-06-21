@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
       <header className="px-10 pt-2 pb-2 css-bg-primary w-100 css-font-1 text-xs ">
         <div className="top_bar text-white grid grid-cols-1 md:grid-cols-2 gap-2">
-          <div className="top_left_bar_info flex flex-row gap-2">
+          <div className="top_left_bar_info flex flex-row gap-2  justify-center md:justify-center lg:justify-start text-center">
             <span>
               <a href="">info@thenext.edu.np</a>
             </span>
@@ -23,6 +23,7 @@ const NavBar = () => {
               <a href="">+977-01-5970268</a>
             </span>
           </div>
+
           <div className="top_right_bar_info flex flex-row  justify-center lg:justify-end gap-6">
             <a href="https://web.whatsapp.com/">
               <span>
