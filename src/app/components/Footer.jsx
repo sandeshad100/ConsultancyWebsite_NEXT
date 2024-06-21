@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div className="items flex flex-col">
               <p className="text-5xl text-white font-bold">
-                Red<span className="css-color-primary">Point</span>
+                Step<span className="css-color-primary">Study</span>
               </p>
             </div>
             <div className="items flex flex-col">
@@ -99,14 +99,14 @@ const Footer = () => {
           {/* developer credit  */}
         </div>
       </footer>
-      <div className="css-bg-primary text-white flex justify-between px-3 py-4">
+      <div className="css-bg-primary text-white flex justify-between px-3 py-2 text-xs">
         <div>
           <a className="font-bold">Privacy Policy </a> Designed and Developer by
           <a href=""> BlueFox Pvt Ltd</a>
         </div>
 
         <div>
-          <p>RedPoint © All rights reserved.</p>
+          <p>StepStudy © All rights reserved.</p>
         </div>
       </div>
     </>

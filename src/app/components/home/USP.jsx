@@ -9,7 +9,7 @@ const USP = () => {
     <section className="mt-12 w-11/12">
       <div className="text-center">
         <p class="css-text-primary text-white text-5xl  css-family section-title">
-          Welcome To The RedPoint
+          Welcome To The StepStudy
         </p>
         <p className="text-3xl css-family  css-color-1 mt-4 section-subtitle">
           The Leading Education Consultancy in Nepal

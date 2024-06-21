@@ -13,15 +13,22 @@ function Nav() {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:white border-b css-font-1">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 py-2">
           <Link
             href="/"
             className="flex items-center space-x-2 rtl:space-x-reverse"
           >
-            <img
+            {/* <img
               src="https://cdn.dribbble.com/userupload/5834280/file/original-853ec43de02b5cc8663df5b26afef2e7.jpg?resize=400x300&vertical=center"
-              className="h-20"
-              alt="RedPoint"
+              className="h-16"
+              alt="StepStudy"
+            /> */}
+            <img
+              src="https://i.ibb.co/qyLbXQR/step2.png"
+              className="h-16"
+              alt="StepStudy"
+              width={110}
+              className="object-cover"
             />
           </Link>
           <button

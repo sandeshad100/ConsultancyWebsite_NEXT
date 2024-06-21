@@ -13,7 +13,7 @@ import Nav from "./home/Nav";
 const NavBar = () => {
   return (
     <>
-      <header className="px-10 pt-3 pb-5 css-bg-primary w-100 css-font-1 ">
+      <header className="px-10 pt-2 pb-2 css-bg-primary w-100 css-font-1 text-xs ">
         <div className="top_bar text-white grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="top_left_bar_info flex flex-row gap-2">
             <span>
