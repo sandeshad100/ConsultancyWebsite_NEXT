@@ -5,7 +5,7 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./slider_styles.css";
 
-export default () => {
+const SliderComponent = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -22,6 +22,12 @@ export default () => {
     <>
       <div className="navigation-wrapper hero-slider">
         <div ref={sliderRef} className="keen-slider">
+          <div className="keen-slider__slide number-slide3">
+            <img
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="img"
+            />
+          </div>
           <div className="keen-slider__slide number-slide1">
             <img
               src="https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?q=80&w=1483&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -34,12 +40,7 @@ export default () => {
               alt="img"
             />
           </div>
-          <div className="keen-slider__slide number-slide3">
-            <img
-              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="img"
-            />
-          </div>
+
           <div className="keen-slider__slide number-slide4">
             <img
               src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -110,3 +111,5 @@ function Arrow(props) {
     </svg>
   );
 }
+
+export default SliderComponent;

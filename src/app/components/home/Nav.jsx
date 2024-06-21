@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../../../public/logo/logo.jpg";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,12 +24,12 @@ function Nav() {
               className="h-16"
               alt="StepStudy"
             /> */}
-            <img
-              src="https://i.ibb.co/qyLbXQR/step2.png"
-              className="h-16"
+            <Image
+              src="/step2.png"
+              className="h-16 object-scale-down"
               alt="StepStudy"
-              width={110}
-              className="object-cover"
+              width={200}
+              height={0}
             />
           </Link>
           <button

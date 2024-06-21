@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import SimpleSlider from "./Slider";
+import SliderComponent from "./Slider";
 
 const Hero = () => {
   return (
     <div>
-      <SimpleSlider />
+      <SliderComponent />
     </div>
   );
 };
